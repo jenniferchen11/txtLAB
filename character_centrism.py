@@ -1,9 +1,9 @@
 import os
 import pandas as pd
-import sys
+import csv
 
 #UPDATE
-#cur_file = "2002_Baker,Jo_Offcomer_CT.txt.tokens"
+cur_file = "toks/2002_Baker,Jo_Offcomer_CT.txt.tokens"
 directory = "toks"
 total_words = 0
 character_words = 0
@@ -14,7 +14,8 @@ character_words = 0
 
 print(character_words)
 for cur_file in os.listdir(directory):
-    df = pd.read_csv(cur_file, sep = "\t")
+    path = directory + '/' + cur_file
+    df = pd.read_csv(path, sep = "\t")
     df1 = pd.DataFrame(df, columns = ['deprel'])
     my_array = df1['deprel'].value_counts().tolist()
     total_words += df1.shape[0]
@@ -37,6 +38,14 @@ for cur_file in os.listdir(directory):
     num_THEY = character_search4[index_THEY]
     character_words = character_words + num_PERSON + num_SHE + num_HE + num_THEY
 
-print("Character Centrism Ratio: ", character_words/total_words)
+    append_to_file = [character_words, total_words]
+    with open('character_centrism.csv', 'w') as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow(append_to_file)
+        
+print(character_words)
+print(total_words)
+rat = float(character_words)/float(total_words)
+print("Character Frequency Analysis Ratio: ", rat)
 
 #print(pd.read_csv(path,use_cols = ['deprel']))
