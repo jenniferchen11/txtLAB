@@ -37,6 +37,6 @@ for cur_file in os.listdir(directory):
     num_THEY = character_search4[index_THEY]
     character_words = character_words + num_PERSON + num_SHE + num_HE + num_THEY
 
-print(character_words/total_words)
+print("Character Centrism Ratio: ", character_words/total_words)
 
 #print(pd.read_csv(path,use_cols = ['deprel']))
