@@ -16,7 +16,7 @@ for cur_file in os.listdir(directory):
         total_rows = df_all_necessary_columns.shape[0]
         
         #this for loop is locating anchor verbs!!
-        for i in range(0, total_rows):#change the end of this range
+        for i in range(0, total_rows):
             hasFoundTrigram = False
             if df_all_necessary_columns['headTokenId'][i] == -1:
                 #only look at anchors that are VERBS, fixing issue from round 1
@@ -28,22 +28,42 @@ for cur_file in os.listdir(directory):
                         try:
                             if df_all_necessary_columns['headTokenId'][j] == cur_anchor_verb_token_id and df_all_necessary_columns['deprel'][j] == 'nsubj':
                                 #collecting ONLY subjects that are people (ie not it, etc)
-                                if df_all_necessary_columns['lemma'][j] == 'I' or df_all_necessary_columns['lemma'][j] == 'she' or df_all_necessary_columns['lemma'][j] == 'he' or df_all_necessary_columns['lemma'][j] == 'we' or df_all_necessary_columns['lemma'][j] == 'they' or df_all_necessary_columns['ner'][j] == 'PERSON' or df_all_necessary_columns['lemma'][j] == 'person' or df_all_necessary_columns['lemma'][j] == 'people':
+                                if df_all_necessary_columns['lemma'][j] == 'I' or df_all_necessary_columns['lemma'][j] == 'she' or df_all_necessary_columns['lemma'][j] == 'he' or df_all_necessary_columns['lemma'][j] == 'we' or df_all_necessary_columns['lemma'][j] == 'they' or df_all_necessary_columns['ner'][j] == 'PERSON' or df_all_necessary_columns['lemma'][j] == 'person' or df_all_necessary_columns['lemma'][j] == 'people' or df_all_necessary_columns['lemma'][j] == 'one' or df_all_necessary_columns['lemma'][j] == 'someone' or df_all_necessary_columns['supersense'][j] == 'B-noun.person':
                                     #print(df_all_necessary_columns['lemma'][j],df_all_necessary_columns['lemma'][i], '|', df_all_necessary_columns['supersense'][i], '| line: ', df_all_necessary_columns['tokenId'][i])
                                     #finding objects (to create trigrams)
                                     for k in range(i+1, i+11):
                                         try:
-                                            if df_all_necessary_columns['deprel'][k] == 'dobj' and df_all_necessary_columns['headTokenId'][k] == cur_anchor_verb_token_id:
-                                                hasFoundTrigram = True
-                                                tri_bi_array.append([df_all_necessary_columns['lemma'][j], df_all_necessary_columns['lemma'][i], df_all_necessary_columns['lemma'][k], df_all_necessary_columns['supersense'][i], df_all_necessary_columns['tokenId'][i]])
-                                                #print('object: ', df_all_necessary_columns['lemma'][k], 'line: ', df_all_necessary_columns['tokenId'][i])
+                                            if df_all_necessary_columns['deprel'][k] == 'dobj' or df_all_necessary_columns['deprel'][k] == 'pobj':
+                                                if df_all_necessary_columns['headTokenId'][k] == cur_anchor_verb_token_id:
+                                                    hasFoundTrigram = True
+                                                    tri_bi_array.append([df_all_necessary_columns['lemma'][j], df_all_necessary_columns['lemma'][i], df_all_necessary_columns['lemma'][k], df_all_necessary_columns['supersense'][i], df_all_necessary_columns['supersense'][k], cur_file, df_all_necessary_columns['tokenId'][i]])
+                                                    #print('object: ', df_all_necessary_columns['lemma'][k], 'line: ', df_all_necessary_columns['tokenId'][i])
                                         except:
                                             continue
                                     if hasFoundTrigram == False:
-                                        tri_bi_array.append([df_all_necessary_columns['lemma'][j],df_all_necessary_columns['lemma'][i], '', df_all_necessary_columns['supersense'][i], df_all_necessary_columns['tokenId'][i]])
+                                        tri_bi_array.append([df_all_necessary_columns['lemma'][j],df_all_necessary_columns['lemma'][i], '', df_all_necessary_columns['supersense'][i], '', cur_file, df_all_necessary_columns['tokenId'][i]])
                                     hasFoundTrigram = False
                         except:
                             continue
+                else:
+                    # backtrack to find actual verb, search for pos tag?
+                    for k in range(i-1, i-11, -1):
+                        try:
+                            if df_all_necessary_columns['pos'][k] == 'VB' or df_all_necessary_columns['pos'][k] == 'VBD' or df_all_necessary_columns['pos'][k] == 'VBG' or df_all_necessary_columns['pos'][k] == 'VBN' or df_all_necessary_columns['pos'][k] == 'VBP' or df_all_necessary_columns['pos'][k] == 'VBZ':
+                                cur_anchor_verb_token_id = df_all_necessary_columns['tokenId'][i]
+                                # use same logic as above for subj
+                                for j in range(k-1, k-11, -1):
+                                    try:
+                                        if df_all_necessary_columns['headTokenId'][j] == cur_anchor_verb_token_id and df_all_necessary_columns['deprel'][j] == 'nsubj':
+                                            #collecting ONLY subjects that are people (ie not it, etc)
+                                            if df_all_necessary_columns['lemma'][j] == 'I' or df_all_necessary_columns['lemma'][j] == 'she' or df_all_necessary_columns['lemma'][j] == 'he' or df_all_necessary_columns['lemma'][j] == 'we' or df_all_necessary_columns['lemma'][j] == 'they' or df_all_necessary_columns['ner'][j] == 'PERSON' or df_all_necessary_columns['lemma'][j] == 'person' or df_all_necessary_columns['lemma'][j] == 'people' or df_all_necessary_columns['lemma'][j] == 'one' or df_all_necessary_columns['lemma'][j] == 'someone' or df_all_necessary_columns['supersense'][j] == 'B-noun.person':
+                                                # add to array: subject, verb found above, token at i
+                                                tri_bi_array.append([df_all_necessary_columns['lemma'][j], df_all_necessary_columns['lemma'][k], df_all_necessary_columns['lemma'][i], df_all_necessary_columns['supersense'][k], df_all_necessary_columns['supersense'][i], cur_file, df_all_necessary_columns['tokenId'][k]])
+                                    except:
+                                        continue
+                        except:
+                            continue
+
         #after every file, update csv
         with open('events.csv', 'a') as csv_file:
             writer = csv.writer(csv_file)
