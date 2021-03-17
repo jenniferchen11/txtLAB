@@ -1,17 +1,15 @@
 # txtLAB
 txtlAB is a natural language processing and data science research at McGill University. The Python scripts in this repository were created to conduct text analysis in a comparison between LGBTQ+ fan-fictions and New York Times bestsellers. 
 
-## To get started
+## Getting Started
 
 Download the files.
 
 ```bash
-git clone https://github.com/bam-emr/ipfs-react.git <FOLDER NAME>
+git clone https://github.com/jenniferchen11/txtLAB.git <FOLDER NAME>
 ```
-Now navigate to the directory, 
-
 Certain libraries require Anaconda environment.
-Download Anaconda: https://www.anaconda.com/products/individual
+Download Anaconda here: https://www.anaconda.com/products/individual
 
 Creating a conda environment:
 
