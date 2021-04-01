@@ -1,0 +1,1000 @@
+"('Person', 'say')",104978
+"('Person', 'ask')",37840
+"('Person', 'look')",37503
+"('Person', 'know')",37063
+"('Person', 'think')",29290
+"('Person', 'be')",24588
+"('Person', 'want')",22075
+"('Person', 'have')",20873
+"('Person', 'smile')",19528
+"('Person', 'go')",17563
+"('Person', 'feel')",17449
+"('Person', 'nod')",15411
+"('Person', '’s')",13306
+"('Person', 'be', 'Person')",12396
+"('Person', 'sigh')",12372
+"('Person', 'try')",12111
+"('Person', 'turn')",11765
+"('Person', 'laugh')",11584
+"('Person', '’m')",11316
+"('Person', 'sit')",10939
+"('Person', 'get')",9988
+"('Person', 'do')",9977
+"('Person', 'come')",9247
+"('Person', 'stand')",9192
+"('Person', 'start')",8960
+"('Person', 'reply')",8559
+"('Person', 'whisper')",7785
+"('Person', 'lean')",7686
+"('Person', 'see')",7518
+"('Person', 'walk')",7145
+"('Person', 'shake', 'head')",7073
+"('Person', 'let')",6619
+"('Person', 'be', 'sure')",6234
+"('Person', 'need')",6211
+"('Person', 'stop')",5945
+"('Person', 'shrug')",5793
+"('Person', 'reach')",5742
+"('Person', 'begin')",5680
+"('Person', 'stare')",5515
+"('Person', 'find')",5404
+"('Person', 'mean')",5384
+"('Person', 'move')",5340
+"('Person', 'roll', 'eye')",5194
+"('Person', 'seem')",5159
+"('Person', 'hear')",5139
+"('Person', 'pull')",5014
+"('Person', 'wonder')",4909
+"('Person', 'decide')",4900
+"('Person', 'groan')",4882
+"('Person', 'grin')",4758
+"('Person', 'watch')",4750
+"('Person', 'chuckle')",4663
+"('Person', 'call')",4617
+"('Person', 'continue')",4436
+"('Person', 'wait')",4324
+"('Person', 'smirk')",4298
+"('Person', 'hope')",4228
+"('Person', 'make')",4157
+"('Person', 'frown')",4115
+"('Person', 'help')",4023
+"('Person', 'blink')",3913
+"('Person', 'manage')",3912
+"('Person', 'mutter')",3860
+"('Person', 'keep')",3711
+"('Person', 'pause')",3709
+"('Person', 'answer')",3686
+"('Person', 'moan')",3664
+"('Person', '’re')",3646
+"('Person', 'remember')",3564
+"('Person', 'speak')",3511
+"('Person', 'realize')",3507
+"('Person', 'breathe')",3404
+"('Person', 'glance')",3386
+"('Person', 'step')",3324
+"('Person', 'talk')",3278
+"('Person', 'gasp')",3162
+"('Person', 'like')",3078
+"('Person', 'cry')",3055
+"('Person', 'snort')",3014
+"('Person', 'take', 'breath')",2999
+"('Person', 'agree')",2974
+"('Person', 'fall')",2944
+"('Person', 'have', 'Person')",2943
+"('Person', 'notice')",2917
+"('Person', 'run')",2859
+"('Person', 'be', 'one')",2847
+"('Person', 'murmur')",2838
+"('Person', 'tell', 'he')",2820
+"('Person', 'mumble')",2776
+"('Person', 'close', 'eye')",2766
+"('Person', 'yell')",2720
+"('Person', 'shout')",2700
+"('Person', 'understand')",2679
+"('Person', 'leave')",2607
+"('Person', 'explain')",2594
+"('Person', 'wish')",2593
+"('Person', 'tell')",2574
+"('Person', 'care')",2547
+"('Person', 'admit')",2542
+"('Person', 'add')",2513
+"('Person', 'raise', 'eyebrow')",2512
+"('Person', 'respond')",2495
+"('Person', 'stay')",2480
+"('Person', 'growl')",2431
+"('Person', 'be', 'able')",2422
+"('Person', 'snap')",2401
+"('Person', 'believe')",2393
+"('Person', 'guess')",2360
+"('Person', 'hum')",2210
+"('Person', 'love')",2200
+"('Person', 'point')",2168
+"('Person', 'blush')",2143
+"('Person', 'wake')",2129
+"('Person', 'exclaim')",2047
+"('Person', 'suppose')",2026
+"('Person', 'huff')",2002
+"('Person', 'promise')",1985
+"('Person', 'bite', 'lip')",1981
+"('Person', 'tell', 'Person')",1971
+"('Person', 'give')",1954
+"('Person', 'hiss')",1952
+"('Person', 'jump')",1951
+"('Person', 'glare')",1925
+"('Person', 'have', 'idea')",1900
+"('Person', 'expect')",1892
+"('Person', 'sound')",1829
+"('Person', 'lie')",1733
+"('Person', 'whine')",1725
+"('Person', 'take')",1722
+"('Person', 'state')",1708
+"('Person', 'swallow')",1699
+"('Person', 'swear')",1641
+"('Person', 'lay')",1641
+"('Person', 'work')",1629
+"('Person', 'finish')",1608
+"('Person', 'shift')",1605
+"('Person', 'kiss')",1605
+"('Person', 'scream')",1602
+"('Person', 'giggle')",1598
+"('Person', 'clear', 'throat')",1539
+"('Person', 'open', 'mouth')",1512
+"('Person', 'open', 'eye')",1506
+"('Person', 'tease')",1505
+"('Person', 'be', 'happy')",1504
+"('Person', 'forget')",1500
+"('Person', 'scoff')",1490
+"('Person', 'give', 'look')",1471
+"('Person', 'insist')",1450
+"('Person', 'see', 'Person')",1448
+"('Person', 'have', 'time')",1442
+"('Person', 'hate')",1441
+"('Person', 'hesitate')",1426
+"('Person', 'figure')",1426
+"('Person', 'end')",1419
+"('Person', 'make', 'way')",1418
+"('Person', 'offer')",1414
+"('Person', 'return')",1399
+"('Person', 'push')",1399
+"('Person', 'suggest')",1397
+"('Person', 'demand')",1388
+"('Person', 'sleep')",1375
+"('Person', 'take', 'it')",1349
+"('Person', 'tell', 'she')",1349
+"('Person', 'do', 'it')",1340
+"('Person', 'listen')",1338
+"('Person', 'be', 'surprised')",1333
+"('Person', 'ask', 'Person')",1316
+"('Person', 'love', 'you')",1315
+"('Person', 'live')",1308
+"('Person', 'hold', 'hand')",1296
+"('Person', 'die')",1295
+"('Person', 'give', 'smile')",1285
+"('Person', 'take', 'step')",1281
+"('Person', 'put', 'hand')",1278
+"('Person', 'freeze')",1277
+"('Person', 'wrap', 'arm')",1272
+"('Person', 'tilt', 'head')",1234
+"('Person', 'tell', 'you')",1230
+"('Person', 'learn')",1214
+"('Person', '’s', 'Person')",1207
+"('Person', 'run', 'hand')",1202
+"('Person', 'roll')",1200
+"('Person', 'be', 'good')",1199
+"('Person', 'turn', 'head')",1198
+"('Person', 'hold')",1196
+"('Person', 'settle')",1187
+"('Person', 'take', 'hand')",1179
+"('Person', 'imagine')",1179
+"('Person', 'break')",1176
+"('Person', 'be', 'right')",1172
+"('Person', 'say', 'anything')",1163
+"('Person', 'grumble')",1161
+"('Person', 'pull', 'Person')",1145
+"('Person', 'lick', 'lip')",1116
+"('Person', 'make', 'it')",1081
+"('Person', 'allow')",1079
+"('Person', 'follow')",1059
+"('Person', 'open', 'door')",1055
+"('Person', 'do', 'that')",1042
+"('Person', 'scowl')",1036
+"('Person', 'complain')",1035
+"('Person', 'head')",1033
+"('Person', 'suck')",1030
+"('Person', 'be', 'sorry')",1021
+"('Person', '’m', 'Person')",1009
+"('Person', 'realise')",1007
+"('Person', 'make', 'noise')",1003
+"('Person', 'meet')",977
+"('Person', 'be', 'glad')",972
+"('Person', 'comment')",962
+"('Person', 'arrive')",962
+"('Person', 'wince')",953
+"('Person', 'stumble')",950
+"('Person', 'slip')",948
+"('Person', 'grow')",946
+"('Person', 'question')",938
+"('Person', 'press')",936
+"('Person', 'repeat')",933
+"('Person', 'refuse')",925
+"('Person', 'spend')",921
+"('Person', 'do', 'this')",909
+"('Person', 'shudder')",906
+"('Person', 'choke')",905
+"('Person', 'mind')",896
+"('Person', 'ask', 'he')",886
+"('Person', 'consider')",883
+"('Person', 'appear')",878
+"('Person', 'struggle')",877
+"('Person', 'kiss', 'he')",872
+"('Person', 'slide')",871
+"('Person', 'use')",863
+"('Person', 'shiver')",859
+"('Person', 'place', 'hand')",856
+"('Person', 'bite')",854
+"('Person', 'assume')",853
+"('Person', 'climb')",848
+"('Person', 'be', 'ready')",842
+"('Person', 'bother')",836
+"('Person', 'beg')",834
+"('Person', 'whimper')",834
+"('Person', 'be', 'aware')",820
+"('Person', 'narrow', 'eye')",805
+"('Person', 'flinch')",803
+"('Person', 'take', 'Person')",801
+"('Person', 'kneel')",797
+"('Person', 'interrupt')",796
+"('Person', 'rush')",793
+"('Person', 'see', 'you')",792
+"('Person', 'beam')",790
+"('Person', 'wink')",790
+"('Person', 'be', 'tired')",779
+"('Person', 'announce')",779
+"('Person', 'be', 'fine')",770
+"('Person', 'plan')",762
+"('Person', 'be', 'close')",761
+"('Person', 'muse')",751
+"('Person', 'know', 'Person')",751
+"('Person', 'gesture')",751
+"('Person', 'shake')",749
+"('Person', 'show')",733
+"('Person', 'pout')",729
+"('Person', 'love', 'Person')",724
+"('Person', 'be', 'silent')",716
+"('Person', 'purr')",715
+"('Person', 'argue')",713
+"('Person', 'drop')",705
+"('Person', 'move', 'hand')",700
+"('Person', 'cross', 'arm')",690
+"('Person', 'rise')",684
+"('Person', 'kiss', 'Person')",683
+"('Person', 'be', 'dead')",682
+"('Person', 'pretend')",679
+"('Person', 'like', 'it')",679
+"('Person', 'grunt')",677
+"('Person', 'blurt')",673
+"('Person', 'protest')",673
+"('Person', 'know', 'it')",672
+"('Person', 'catch')",672
+"('Person', 'be', 'busy')",672
+"('Person', 'pant')",667
+"('Person', 'raise', 'hand')",666
+"('Person', 'do', 'anything')",664
+"('Person', 'get', 'it')",663
+"('Person', 'tug')",662
+"('Person', 'fight')",657
+"('Person', 'see', 'it')",657
+"('Person', 'force')",651
+"('Person', 'retort')",650
+"('Person', 'joke')",646
+"('Person', 'shoot')",644
+"('Person', 'hang')",633
+"('Person', 'trail')",629
+"('Person', 'be', 'afraid')",625
+"('Person', 'order')",622
+"('Person', 'grab', 'hand')",621
+"('Person', 'let', 'sigh')",616
+"('Person', 'be', 'beautiful')",613
+"('Person', 'spit')",613
+"('Person', 'play')",612
+"('Person', 'focus')",611
+"('Person', 'push', 'Person')",610
+"('Person', 'watch', 'Person')",609
+"('Person', 'watch', 'he')",608
+"('Person', 'lift', 'head')",607
+"('Person', 'make', 'sound')",606
+"('Person', 'miss')",601
+"('Person', 'crawl')",598
+"('Person', 'run', 'finger')",597
+"('Person', 'feel', 'it')",597
+"('Person', 'gulp')",592
+"('Person', 'collapse')",590
+"('Person', 'be', 'quiet')",590
+"('Person', 'apologize')",588
+"('Person', 'note')",584
+"('Person', 'take', 'time')",583
+"('Person', 'be', 'certain')",582
+"('Person', 'want', 'Person')",577
+"('Person', 'flush')",570
+"('Person', 'gon')",569
+"('Person', 'meet', 'Person')",569
+"('Person', 'put')",565
+"('Person', 'smell')",563
+"('Person', 'read')",561
+"('Person', 'find', 'Person')",552
+"('Person', 'have', 'feeling')",546
+"('Person', 'slide', 'hand')",545
+"('Person', 'make', 'face')",541
+"('Person', 'doubt')",539
+"('Person', 'choose')",536
+"('Person', 'take', 'moment')",536
+"('Person', 'knock')",536
+"('Person', 'pass')",534
+"('Person', 'warn')",531
+"('Person', 'declare')",531
+"('Person', 'bend')",530
+"('Person', 'plead')",530
+"('Person', 'dare')",529
+"('Person', 'burst')",527
+"('Person', 'wave')",522
+"('Person', 'bring', 'hand')",521
+"('Person', 'attempt')",520
+"('Person', 'have', 'one')",519
+"('Person', 'change')",514
+"('Person', 'eat')",514
+"('Person', 'sing')",511
+"('Person', 'worry')",511
+"('Person', 'let', 'breath')",509
+"('Person', 'exhale')",508
+"('Person', 'nod', 'head')",508
+"('Person', 'love', 'it')",508
+"('Person', 'disappear')",507
+"('Person', 'sink')",503
+"('Person', 'reach', 'hand')",503
+"('Person', 'yawn')",503
+"('Person', 'let', 'go')",499
+"('Person', 'drive')",498
+"('Person', 'hurry')",496
+"('Person', 'confess')",494
+"('Person', 'remark')",491
+"('Person', 'draw')",491
+"('Person', 'have', 'able')",490
+"('Person', 'tell', 'they')",490
+"('Person', 'gaze')",489
+"('Person', 'press', 'kiss')",487
+"('Person', 'pull', 'he')",487
+"('Person', 'squeeze')",486
+"('Person', 'see', 'he')",486
+"('Person', 'tell', 'himself')",485
+"('Person', 'squirm')",485
+"('Person', 'relax')",483
+"('Person', 'feel', 'hand')",479
+"('Person', 'act')",477
+"('Person', 'pick')",471
+"('Person', 'greet')",469
+"('Person', 'gape')",468
+"('Person', 'spin')",468
+"('Person', 'inhale')",466
+"('Person', 'grimace')",464
+"('Person', 'dream')",464
+"('Person', 'sniff')",463
+"('Person', 'stutter')",463
+"('Person', '’ve')",462
+"('Person', 'sneer')",459
+"('Person', 'sob')",457
+"('Person', 'lick')",454
+"('Person', 'suspect')",452
+"('Person', 'press', 'lip')",450
+"('Person', 'squint')",450
+"('Person', 'back')",449
+"('Person', 'ask', 'she')",449
+"('Person', 'like', 'Person')",449
+"('Person', 'drawl')",447
+"('Person', 'wander')",445
+"('Person', 'be', 'grateful')",443
+"('Person', 'know', 'that')",443
+"('Person', 'open')",443
+"('Person', 'scramble')",442
+"('Person', 'be', 'nervous')",441
+"('Person', 'bet')",440
+"('Person', 'shuffle')",437
+"('Person', 'fail')",435
+"('Person', 'straighten')",434
+"('Person', 'love', 'he')",432
+"('Person', 'pay', 'attention')",431
+"('Person', 'lift', 'hand')",431
+"('Person', 'hear', 'Person')",431
+"('Person', 'inquire')",430
+"('Person', 'be', 'old')",429
+"('Person', 'take', 'care')",427
+"('Person', 'be', 'wrong')",425
+"('Person', 'be', 'first')",424
+"('Person', 'peer')",424
+"('Person', 'snicker')",424
+"('Person', 'coo')",423
+"('Person', 'grab')",423
+"('Person', 'be', 'angry')",420
+"('Person', 'meet', 'eye')",420
+"('Person', 'stretch')",418
+"('Person', 'close', 'door')",417
+"('Person', 'be', 'proud')",416
+"('Person', 'get', 'Person')",415
+"('Person', 'follow', 'Person')",414
+"('Person', 'be', 'more')",413
+"('Person', 'enjoy')",412
+"('Person', 'do', 'thing')",411
+"('Person', 'fuck')",411
+"('Person', 'snarl')",410
+"('Person', 'pull', 'hand')",409
+"('Person', 'wave', 'hand')",406
+"('Person', 'curse')",405
+"('Person', 'grab', 'Person')",404
+"('Person', 'need', 'you')",403
+"('Person', 'yelp')",402
+"('Person', 'be', 'worried')",401
+"('Person', 'have', 'hair')",401
+"('Person', 'write')",401
+"('Person', 'stammer')",400
+"('Person', 'dance')",400
+"('Person', 'win')",399
+"('Person', 'want', 'you')",399
+"('Person', 'curl')",392
+"('Person', 'squeeze', 'hand')",389
+"('Person', 'rub')",385
+"('Person', 'call', 'Person')",385
+"('Person', 'deal')",384
+"('Person', 'kiss', 'she')",382
+"('Person', 'need', 'Person')",380
+"('Person', 'mean', 'it')",378
+"('Person', 'take', 'seat')",378
+"('Person', 'push', 'himself')",373
+"('Person', 'say', 'it')",372
+"('Person', 'help', 'it')",371
+"('Person', 'raise', 'brow')",371
+"('Person', 'stiffen')",371
+"('Person', 'taste')",370
+"('Person', 'cough')",370
+"('Person', 'miss', 'you')",368
+"('Person', 'have', 'thing')",368
+"('Person', 'bury', 'face')",368
+"('Person', 'be', 'lucky')",366
+"('Person', 'have', 'eye')",365
+"('Person', 'check')",364
+"('Person', 'have', 'lot')",364
+"('Person', 'be', 'alone')",364
+"('Person', 'feel', 'Person')",364
+"('Person', 'spend', 'time')",363
+"('Person', 'keep', 'eye')",362
+"('Person', 'be', 'asleep')",362
+"('Person', 'do', 'best')",361
+"('Person', 'tend')",361
+"('Person', 'be', 'hard')",359
+"('Person', 'mention')",359
+"('Person', 'have', 'hand')",358
+"('Person', 'give', 'nod')",358
+"('Person', 'wan')",357
+"('Person', 'deserve')",357
+"('Person', 'hate', 'it')",355
+"('Person', 'be', 'excited')",352
+"('Person', 'happen')",351
+"('Person', 'be', 'shocked')",351
+"('Person', 'cut')",350
+"('Person', 'fly')",350
+"('Person', 'become', 'Person')",349
+"('Person', 'correct')",346
+"('Person', 'make', 'Person')",346
+"('Person', 'be', 'drunk')",344
+"('Person', 'throw', 'head')",344
+"('Person', 'set')",340
+"('Person', 'pull', 'phone')",338
+"('Person', 'follow', 'he')",338
+"('Person', 'hear', 'voice')",337
+"('Person', 'take', 'sip')",337
+"('Person', 'take', 'he')",336
+"('Person', 'cling')",335
+"('Person', 'shoot', 'look')",335
+"('Person', 'ignore', 'he')",335
+"('Person', '’re', 'Person')",334
+"('Person', 'be', 'interested')",334
+"('Person', 'hop')",334
+"('Person', 'proceed')",332
+"('Person', 'know', 'this')",332
+"('Person', 'remember', 'time')",332
+"('Person', 'help', 'you')",331
+"('Person', 'let', 'laugh')",330
+"('Person', 'be', 'scared')",329
+"('Person', 'fumble')",328
+"('Person', 'panic')",326
+"('Person', 'find', 'it')",326
+"('Person', 'hold', 'breath')",325
+"('Person', 'drink')",325
+"('Person', 'cringe')",325
+"('Person', 'wear')",324
+"('Person', 'turn', 'attention')",324
+"('Person', 'do', 'something')",321
+"('Person', 'scoot')",321
+"('Person', 'land')",320
+"('Person', 'push', 'he')",320
+"('Person', 'flip')",320
+"('Person', 'break', 'kiss')",320
+"('Person', 'be', 'bit')",320
+"('Person', 'waste', 'time')",319
+"('Person', 'be', 'okay')",318
+"('Person', 'be', 'nice')",318
+"('Person', 'command')",318
+"('Person', 'flop')",318
+"('Person', 'counter')",317
+"('Person', 'react')",315
+"('Person', 'comply')",315
+"('Person', 'have', 'problem')",313
+"('Person', 'bark')",312
+"('Person', 'confirm')",312
+"('Person', 'have', 'chance')",311
+"('Person', 'be', 'panting')",311
+"('Person', 'jerk')",309
+"('Person', 'hold', 'Person')",306
+"('Person', 'believe', 'it')",306
+"('Person', 'be', 'pleased')",305
+"('Person', 'say', 'something')",304
+"('Person', 'duck', 'head')",302
+"('Person', 'resist')",301
+"('Person', 'throw')",299
+"('Person', 'squeak')",299
+"('Person', 'put', 'it')",299
+"('Person', 'be', 'young')",299
+"('Person', 'ask', 'question')",298
+"('Person', 'be', 'better')",297
+"('Person', 'want', 'it')",296
+"('Person', 'claim')",294
+"('Person', 'hold', 'it')",294
+"('Person', 'have', 'it')",293
+"('Person', 'squeal')",293
+"('Person', 'observe')",293
+"('Person', 'leave', 'Person')",293
+"('Person', 'be', 'thing')",292
+"('Person', 'crouch')",292
+"('Person', 'take', 'look')",292
+"('Person', 'tense')",291
+"('Person', 'be', 'different')",291
+"('Person', 'send')",288
+"('Person', 'be', 'stupid')",288
+"('Person', 'be', 'quick')",287
+"('Person', 'have', 'plan')",287
+"('Person', 'be', 'careful')",287
+"('Person', 'tremble')",285
+"('Person', 'be', 'alive')",285
+"('Person', 'be', 'tall')",285
+"('Person', 'be', 'curious')",284
+"('Person', 'search')",284
+"('Person', 'motion')",283
+"('Person', 'prompt')",282
+"('Person', 'be', 'cute')",281
+"('Person', 'croak')",281
+"('Person', 'watch', 'she')",280
+"('Person', 'slump')",280
+"('Person', 'say', 'nothing')",279
+"('Person', 'feel', 'something')",279
+"('Person', 'grind')",278
+"('Person', 'pray')",278
+"('Person', 'duck')",277
+"('Person', 'pay')",277
+"('Person', 'enter')",277
+"('Person', 'have', 'nothing')",276
+"('Person', 'quip')",275
+"('Person', 'find', 'himself')",273
+"('Person', 'sputter')",272
+"('Person', 'trust')",272
+"('Person', 'try', 'best')",272
+"('Person', 'bring')",271
+"('Person', 'open', 'it')",271
+"('Person', 'intend')",270
+"('Person', 'grab', 'arm')",270
+"('Person', 'stick')",269
+"('Person', 'lead', 'Person')",268
+"('Person', 'furrow', 'brow')",268
+"('Person', 'feel', 'heat')",266
+"('Person', 'be', 'willing')",266
+"('Person', 'shriek')",265
+"('Person', 'find', 'way')",265
+"('Person', 'look', 'Person')",265
+"('Person', 'be', 'much')",264
+"('Person', 'rest', 'head')",263
+"('Person', 'hear', 'sound')",263
+"('Person', 'have', 'something')",262
+"('Person', '’s', 'one')",261
+"('Person', 'purse', 'lip')",259
+"('Person', 'catch', 'eye')",257
+"('Person', 'be', 'nothing')",257
+"('Person', 'count')",257
+"('Person', 'miss', 'Person')",256
+"('Person', 'cheer')",256
+"('Person', 'huff', 'laugh')",255
+"('Person', 'be', 'confused')",254
+"('Person', 'ask', 'you')",253
+"('Person', 'remind', 'he')",253
+"('Person', 'cock')",253
+"('Person', 'discover')",253
+"('Person', 'lose')",252
+"('Person', 'be', 'warm')",252
+"('Person', 'shut', 'eye')",251
+"('Person', 'concede')",251
+"('Person', 'assure')",251
+"('Person', 'be', 'awake')",251
+"('Person', 'tell', 'herself')",250
+"('Person', 'shake', 'hand')",250
+"('Person', 'leave', 'room')",250
+"('Person', 'pull', 'it')",249
+"('Person', 'need', 'it')",249
+"('Person', 'regret')",249
+"('Person', 'chirp')",249
+"('Person', 'stride')",248
+"('Person', 'drop', 'hand')",248
+"('Person', 'prefer')",248
+"('Person', 'twist')",247
+"('Person', 'stick', 'tongue')",246
+"('Person', 'stir')",246
+"('Person', 'close')",245
+"('Person', 'slip', 'hand')",245
+"('Person', 'wrap', 'hand')",244
+"('Person', 'fidget')",244
+"('Person', 'know', 'he')",244
+"('Person', 'accept')",243
+"('Person', 'clarify')",243
+"('Person', 'hate', 'Person')",243
+"('Person', 'hold', 'he')",243
+"('Person', 'be', 'strong')",242
+"('Person', 'have', 'choice')",242
+"('Person', 'feel', 'eye')",242
+"('Person', 'interject')",242
+"('Person', '’m', 'sorry')",241
+"('Person', 'be', 'mad')",240
+"('Person', 'be', 'hot')",240
+"('Person', 'shut', 'door')",240
+"('Person', 'be', 'thankful')",240
+"('Person', 'remain')",239
+"('Person', 'drift')",239
+"('Person', 'lean', 'head')",239
+"('Person', 'assure', 'he')",239
+"('Person', 'have', 'trouble')",238
+"('Person', 'belong')",237
+"('Person', 'awake')",237
+"('Person', 'want', 'he')",237
+"('Person', 'thrust')",236
+"('Person', 'put', 'arm')",236
+"('Person', 'fear')",235
+"('Person', 'scold')",234
+"('Person', 'make', 'note')",234
+"('Person', 'pull', 'himself')",234
+"('Person', 'see', 'she')",233
+"('Person', 'be', 'jealous')",233
+"('Person', 'deny')",233
+"('Person', 'need', 'help')",233
+"('Person', 'hide')",233
+"('Person', 'instruct')",233
+"('Person', 'be', 'perfect')",232
+"('Person', 'pull', 'finger')",232
+"('Person', 'bounce')",231
+"('Person', 'press', 'hand')",231
+"('Person', 'shut')",231
+"('Person', 'love', 'she')",229
+"('Person', 'shrug', 'shoulder')",228
+"('Person', 'calm')",227
+"('Person', 'feel', 'way')",227
+"('Person', 'have', 'look')",227
+"('Person', 'startle')",226
+"('Person', 'be', 'kind')",226
+"('Person', 'raise', 'head')",226
+"('Person', 'see', 'face')",225
+"('Person', 'conclude')",224
+"('Person', 'smile', 'smile')",224
+"('Person', 'kick')",223
+"('Person', 'have', 'reason')",223
+"('Person', 'be', 'type')",222
+"('Person', 'grit', 'tooth')",221
+"('Person', 'emerge')",221
+"('Person', 'pick', 'it')",220
+"('Person', 'help', 'Person')",219
+"('Person', 'hover')",219
+"('Person', 'have', 'much')",219
+"('Person', 'take', 'one')",218
+"('Person', 'smile', 'little')",218
+"('Person', 'obey')",217
+"('Person', 'have', 'way')",217
+"('Person', 'nip')",217
+"('Person', 'know', 'you')",217
+"('Person', 'leave', 'he')",217
+"('Person', 'do', 'same')",216
+"('Person', 'be', 'sick')",216
+"('Person', 'throw', 'arm')",215
+"('Person', 'dress')",214
+"('Person', 'blink', 'time')",214
+"('Person', 'kiss', 'cheek')",214
+"('Person', 'rest', 'hand')",214
+"('Person', 'rub', 'hand')",214
+"('Person', 'recall')",214
+"('Person', 'throw', 'hand')",213
+"('Person', 'give', 'grin')",213
+"('Person', 'hear', 'it')",213
+"('Person', 'join')",213
+"('Person', 'chew')",213
+"('Person', 'like', 'you')",212
+"('Person', 'be', 'safe')",212
+"('Person', 'bring', 'Person')",212
+"('Person', 'be', 'content')",212
+"('Person', 'take', 'you')",211
+"('Person', 'rub', 'back')",210
+"('Person', 'date')",209
+"('Person', 'have', 'right')",209
+"('Person', 'splutter')",209
+"('Person', 'have', 'clue')",209
+"('Person', 'be', 'there')",208
+"('Person', 'raise')",208
+"('Person', 'have', 'sex')",208
+"('Person', 'be', 'naked')",208
+"('Person', 'say', 'word')",207
+"('Person', 'get', 'you')",207
+"('Person', 'bow')",207
+"('Person', 'pick', 'Person')",206
+"('Person', 'slow')",206
+"('Person', 'hug', 'Person')",206
+"('Person', 'flirt')",206
+"('Person', 'be', 'gorgeous')",205
+"('Person', 'give', 'Person')",204
+"('Person', 'sniffle')",203
+"('Person', 'take', 'opportunity')",203
+"('Person', 'want', 'this')",203
+"('Person', 'slide', 'finger')",203
+"('Person', 'find', 'he')",202
+"('Person', 'lift')",202
+"('Person', 'linger')",201
+"('Person', 'rasp')",201
+"('Person', 'whirl')",201
+"('Person', 'contemplate')",200
+"('Person', 'roar')",199
+"('Person', 'nuzzle')",199
+"('Person', 'enter', 'room')",199
+"('Person', 'reason')",199
+"('Person', 'be', 'impressed')",199
+"('Person', 'remind', 'himself')",198
+"('Person', 'have', 'doubt')",198
+"('Person', 'ask', 'voice')",198
+"('Person', 'be', 'bad')",198
+"('Person', 'concentrate')",197
+"('Person', 'pop')",196
+"('Person', 'be', 'smart')",196
+"('Person', 'slam')",195
+"('Person', 'deadpan')",195
+"('Person', 'take', 'that')",195
+"('Person', 'spend', 'hour')",194
+"('Person', 'melt')",194
+"('Person', 'have', 'smile')",194
+"('Person', 'kiss', 'you')",194
+"('Person', 'cackle')",194
+"('Person', 'be', 'free')",193
+"('Person', 'resist', 'urge')",193
+"('Person', 'drag', 'Person')",192
+"('Person', 'do', 'nothing')",192
+"('Person', 'keep', 'hand')",192
+"('Person', 'shove', 'Person')",191
+"('Person', 'dig')",190
+"('Person', 'take', 'bite')",190
+"('Person', 'be', 'upset')",190
+"('Person', 'meet', 'gaze')",190
+"('Person', 'snuggle')",190
+"('Person', 'clench')",190
+"('Person', 'hate', 'he')",190
+"('Person', 'let', 'Person')",190
+"('Person', 'see', 'they')",190
+"('Person', 'chime')",190
+"('Person', 'leave', 'you')",190
+"('Person', 'be', 'part')",189
+"('Person', 'kill', 'Person')",189
+"('Person', 'be', 'embarrassed')",189
+"('Person', 'want', 'nothing')",189
+"('Person', 'flash', 'smile')",188
+"('Person', 'hug')",188
+"('Person', 'be', 'mess')",188
+"('Person', 'touch')",188
+"('Person', 'know', 'name')",186
+"('Person', 'tighten', 'grip')",186
+"('Person', 'travel')",186
+"('Person', 'make', 'move')",186
+"('Person', 'roll', 'hip')",185
+"('Person', 'be', 'cold')",185
+"('Person', 'use', 'hand')",185
+"('Person', 'give', 'laugh')",185
+"('Person', 'stop', 'himself')",185
+"('Person', 'fold', 'arm')",185
+"('Person', 'recover')",184
+"('Person', 'be', 'late')",184
+"('Person', 'offer', 'smile')",184
+"('Person', 'be', 'exhausted')",184
+"('Person', 'arch')",184
+"('Person', 'grab', 'wrist')",183
+"('Person', 'have', 'fun')",183
+"('Person', 'feel', 'breath')",182
+"('Person', 'rest')",182
+"('Person', 'press', 'finger')",182
+"('Person', 'pull', 'she')",182
+"('Person', 'skate')",182
+"('Person', 'be', 'older')",182
+"('Person', 'storm')",181
+"('Person', 'bring', 'himself')",181
+"('Person', 'rock')",181
+"('Person', 'hurt')",181
+"('Person', 'drop', 'head')",181
+"('Person', 'be', 'human')",180
+"('Person', 'spend', 'rest')",179
+"('Person', 'be', 'here')",179
+"('Person', 'put', 'Person')",179
+"('Person', 'threaten')",179
+"('Person', 'ignore')",179
+"('Person', 'cut', 'he')",179
+"('Person', 'trip')",178
+"('Person', 'screech')",178
+"('Person', 'rub', 'eye')",178
+"('Person', 'fit')",177
+"('Person', 'oblige')",176
+"('Person', 'bring', 'it')",176
+"('Person', 'get', 'chance')",176
+"('Person', 'ignore', 'it')",176
+"('Person', 'lunge')",175
+"('Person', 'shove')",175
+"('Person', 'lose', 'Person')",175
+"('Person', 'feel', 'need')",175
+"('Person', 'notice', 'Person')",175
+"('Person', 'be', 'half')",175
+"('Person', 'hug', 'he')",175
+"('Person', 'remember', 'Person')",174
+"('Person', 'leave', 'it')",173
+"('Person', 'take', 'they')",173
+"('Person', 'clutch')",173
+"('Person', 'ramble')",173
+"('Person', 'take', 'phone')",173
+"('Person', 'laugh', 'little')",173
+"('Person', 'be', 'about')",173
+"('Person', 'admit', 'it')",173
+"('Person', 'wipe', 'tear')",172
+"('Person', 'be', 'startled')",172
+"('Person', 'place', 'kiss')",172
+"('Person', 'relent')",171
+"('Person', 'opt')",171
+"('Person', 'make', 'decision')",171
+"('Person', 'like', 'that')",170
+"('Person', 'breathe', 'sigh')",170
+"('Person', 'sway')",170
+"('Person', 'lower', 'head')",169
+"('Person', 'recognize')",169
+"('Person', 'catch', 'sight')",169
+"('Person', 'urge')",169
+"('Person', 'let', 'he')",169
+"('Person', 'throw', 'himself')",169
+"('Person', 'take', 'eye')",169
+"('Person', 'kill')",168
+"('Person', 'turn', 'eye')",167
+"('Person', 'turn', 'face')",167
+"('Person', 'be', 'hungry')",166
+"('Person', 'want', 'more')",166
+"('Person', 'fiddle')",166
+"('Person', 'have', 'arm')",166
+"('Person', 'call', 'he')",166
+"('Person', 'give', 'it')",166
+"('Person', 'ponder')",166
+"('Person', 'enjoy', 'it')",165
+"('Person', 'give', 'kiss')",165
+"('Person', 'lead', 'they')",165
+"('Person', 'follow', 'she')",165
+"('Person', 'stroke')",165
+"('Person', 'look', 'he')",164
+"('Person', 'chide')",164
+"('Person', 'help', 'he')",164
+"('Person', 'kiss', 'forehead')",164
+"('Person', 'share', 'look')",164
+"('Person', 'remove', 'hand')",163
+"('Person', 'plop')",163
+"('Person', 'pull', 'shirt')",162
+"('Person', 'peek')",162
+"('Person', 'want', 'that')",162
+"('Person', 'convince')",162
+"('Person', 'heave', 'sigh')",162
+"('Person', 'spread', 'leg')",161
+"('Person', 'survive')",161
+"('Person', 'leap')",161
+"('Person', 'sneak')",161
+"('Person', 'strip')",161
+"('Person', 'call', 'you')",161
+"('Person', 'be', 'sad')",161
+"('Person', 'catch', 'Person')",160
+"('Person', 'slur')",160
+"('Person', 'make', 'mistake')",160
+"('Person', 'carry')",160
+"('Person', 'lock', 'eye')",159
+"('Person', 'dive')",159
+"('Person', 'make', 'sure')",159
+"('Person', 'writhe')",159
+"('Person', 'send', 'Person')",159
+"('Person', 'have', 'crush')",159
+"('Person', 'inform')",158
+"('Person', 'be', 'taller')",158
+"('Person', 'spend', 'most')",158
+"('Person', 'sense')",158
+"('Person', 'turn', 'Person')",158
+"('Person', 'be', 'serious')",158
+"('Person', 'still')",157
+"('Person', 'lead', 'he')",157
+"('Person', 'be', 'he')",157
+"('Person', 'use', 'it')",157
+"('Person', 'be', 'disappointed')",157
+"('Person', 'echo')",156
+"('Person', 'be', 'small')",156
+"('Person', 'approach')",155
+"('Person', 'lay', 'hand')",155
+"('Person', 'like', 'he')",155
+"('Person', 'perk')",155
+"('Person', 'debate')",155
+"('Person', 'take', 'she')",154
+"('Person', 'slip', 'finger')",154
+"('Person', 'feel', 'heart')",154
+"('Person', 'have', 'anything')",154
+"('Person', 'bear')",154
+"('Person', 'deserve', 'it')",154
+"('Person', 'see', 'anything')",154
+"('Person', 'click')",154
+"('Person', 'know', 'what')",154
+"('Person', 'need', 'he')",154
+"('Person', 'see', 'way')",154
+"('Person', 'thank', 'Person')",153
+"('Person', 'grab', 'he')",153
+"('Person', 'spot')",152
+"('Person', 'hurt', 'you')",152
+"('Person', 'inform', 'he')",152
+"('Person', 'be', 'honest')",152
+"('Person', 'figure', 'it')",152
+"('Person', 'be', 'comfortable')",152
+"('Person', 'creep')",151
+"('Person', 'switch')",151
+"('Person', 'push', 'finger')",151
+"('Person', 'give', 'sigh')",151
+"('Person', 'slam', 'door')",151
+"('Person', 'ride')",150
+"('Person', 'stalk')",149
+"('Person', 'clap', 'hand')",149
+"('Person', 'be', 'desperate')",149
+"('Person', 'break', 'silence')",149
+"('Person', 'be', 'unable')",149
+"('Person', 'accuse')",149
+"('Person', 'be', 'gay')",148
+"('Person', 'do', 'job')",148
+"('Person', 'extend', 'hand')",148
+"('Person', 'pull', 'face')",148
+"('Person', 'be', 'easy')",148
+"('Person', 'remain', 'silent')",148
+"('Person', 'be', 'great')",148
+"('Person', 'wrinkle', 'nose')",147
+"('Person', 'be', 'something')",147
+"('Person', 'hate', 'you')",147
+"('Person', 'set', 'it')",147
+"('Person', 'prepare')",146
+"('Person', 'wriggle')",146
+"('Person', 'hold', 'arm')",146
+"('Person', 'ruffle', 'hair')",146
+"('Person', 'have', 'plenty')",146
+"('Person', 'swing')",146
+"('Person', 'pipe')",146
+"('Person', 'avoid')",146
+"('Person', 'give', 'squeeze')",145
+"('Person', 'become')",145
+"('Person', 'chat')",145
+"('Person', 'feel', 'warmth')",145
+"('Person', 'greet', 'he')",145
+"('Person', 'stop', 'he')",145
+"('Person', 'push', 'hand')",144
+"('Person', 'stagger')",144
+"('Person', 'run', 'tongue')",144
+"('Person', 'take', 'advantage')",144
+"('Person', 'afford')",144
+"('Person', 'shove', 'hand')",144
+"('Person', 'remind')",144
+"('Person', 'hand', 'it')",144
+"('Person', 'blame', 'he')",144
+"('Person', 'have', 'moment')",144
