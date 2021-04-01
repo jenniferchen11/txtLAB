@@ -1,44 +1,52 @@
-from scipy.stats.distributions import chi2
+#from scipy.stats.distributions import chi2
+import scipy.stats as stats
+from scipy.stats import chi2_contingency
 import math
 import csv
 import pandas as pd
+import numpy as np
 
-events_file="interpreting_nyt_events.csv" #put NYT interpreted events file here
-df_nyt = pd.read_csv(events_file)
-num_rows_nyt = df_nyt.shape[0]
+# Conduct log-liklihood test and Fisher’s Exact Test for Odd’s Ratio (assigns p value)
+# We want to run these two tests simultaneously in other to determine which of the two datasets is gibing the higher likelihood
 
-events_file="interpreting_fanfic_events.csv" #put fanfic interpreted events file here
-df_fanfic = pd.read_csv(events_file)
-num_rows_ff = df_fanfic.shape[0]
+with open("sample_merged_events.csv", "r") as merged_events:
+    i = 0
 
-with open("merged_events.csv", "a") as merged_events:
-    writer=csv.writer(merged_events)
-    for i in range(num_rows_nyt):
-        is_found = False
-        for j in range(num_rows_ff):
-            if df_nyt.iloc[i, 0] == df_fanfic.iloc[j,0]: #brigram/trigram appears in both
-                to_append= [df_nyt.iloc[i,0], df_nyt.iloc[i,1], 1546177-df_nyt.iloc[i,1], df_fanfic.iloc[j,1], 1734263-df_fanfic.iloc[j,1]]
-                writer.writerow(to_append)
-                is_found = True
-        if is_found == False: #if bigram/trigram is in NYT but doesn't appear at all in fan-fic
-            writer.writerow([df_nyt.iloc[i,0], df_nyt.iloc[i,1], 1546177-df_nyt.iloc[i,1], 0, 1734263])
-    
+    ALLRows = csv.reader(merged_events, delimiter=',')
+    for row in ALLRows:
+        contingency_table = np.array([[int(row[1]),int(row[2])], [int(row[3]), int(row[4])]])
+        oddsratio, pvalue = stats.fisher_exact([[int(row[1]),int(row[2])], [int(row[3]), int(row[4])]])
+        i+=1
+        print("Row ", i, ": ", row)
+        print("Log-Liklihood Results: ", chi2_contingency(contingency_table, lambda_="log-likelihood"))
+        print("Odds Ratio: ", oddsratio)
+        print("p-value: ", pvalue)
+        print("\n")
 
-with open("only_in_fanfics.csv", "a") as only_in_fanfics:
-    writer=csv.writer(only_in_fanfics)
-    with open("merged_events.csv", "r") as merged_events:
-        csv_reader = csv.reader(merged_events)
-        for i in range(num_rows_ff):
-            bi_tri_found = False
-            for row in csv_reader:
-                if df_fanfic.iloc[i,0] == row[0]:
-                    bi_tri_found = True
-            if bi_tri_found == False:
-                writer.writerow([df_fanfic.iloc[i, 0], 0, 1546177, df_fanfic.iloc[i, 1], 1734263-df_fanfic.iloc[i, 1]])
 
-with open("merged_events.csv", "a") as merged_events:
-    writer=csv.writer(merged_events)
-    with open("only_in_fanfics.csv", "r") as only_in_fanfics:
-        csv_reader = csv.reader(only_in_fanfics)
-        for row in csv_reader:
-            writer.writerow(row)
+
+
+
+
+
+
+
+
+
+
+
+
+# def log_func()
+# def tests(row):
+#     total = row[1]+row[2]+row[3]+row[4]
+#     step1 = sum(total/N*log(k/N+(k==0)))
+# H = function(k) {
+# 	N = sum(k); 
+# 	return(sum(k/N*log(k/N+(k==0))))
+# }
+# LLR = 2*sum(cont.table)*(H(cont.table)-H(rowSums(cont.table))-H(colSums(cont.table)))
+
+# with open("merged_events.csv", "r") as merged_events:
+#     for row in merged_events:
+#         total = row[1]+row[2]+row[3]+row[4]
+#         log_liklihood_ratio = 2*sum(total)*(log_func(row)=log_func(row[]))
