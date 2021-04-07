@@ -3,25 +3,37 @@ import scipy.stats as stats
 from scipy.stats import chi2_contingency
 import math
 import csv
-import pandas as pd
 import numpy as np
 
 # Conduct log-liklihood test and Fisher’s Exact Test for Odd’s Ratio (assigns p value)
-# We want to run these two tests simultaneously in other to determine which of the two datasets is gibing the higher likelihood
+# We want to run these two tests simultaneously in other to determine which of the two datasets is giving the higher likelihood
 
-with open("sample_merged_events.csv", "r") as merged_events:
+
+with open("merged_events.csv", "r") as merged_events:
     i = 0
 
     ALLRows = csv.reader(merged_events, delimiter=',')
-    for row in ALLRows:
-        contingency_table = np.array([[int(row[1]),int(row[2])], [int(row[3]), int(row[4])]])
-        oddsratio, pvalue = stats.fisher_exact([[int(row[1]),int(row[2])], [int(row[3]), int(row[4])]])
-        i+=1
-        print("Row ", i, ": ", row)
-        print("Log-Liklihood Results: ", chi2_contingency(contingency_table, lambda_="log-likelihood"))
-        print("Odds Ratio: ", oddsratio)
-        print("p-value: ", pvalue)
-        print("\n")
+    with open("logLikelihood.csv", "a") as llr_results:
+        writer=csv.writer(llr_results)
+        for row in ALLRows:
+            contingency_table = np.array([[int(row[1]),int(row[2])], [int(row[3]), int(row[4])]])
+            oddsratio, pvalue = stats.fisher_exact([[int(row[1]),int(row[2])], [int(row[3]), int(row[4])]])
+            i+=1
+            #print("Row ", i, ": ", row)
+            #print("Log-Liklihood Results: ", chi2_contingency(contingency_table, lambda_="log-likelihood"))
+            #print("Odds Ratio: ", oddsratio)
+            #print("p-value: ", pvalue)
+            #print("\n")
+            llr = chi2_contingency(contingency_table, lambda_="log-likelihood")
+            llr_gscore = llr[0];
+
+            #Positive = Higher prevalence in NYT
+            #Negative = Higher prevalence in fanfics
+            if oddsratio < 1:
+                llr_gscore = -1*llr_gscore
+            #print(llr[0])
+            to_append = [row[0], llr_gscore, oddsratio, pvalue]
+            writer.writerow(to_append)
 
 
 
