@@ -1,5 +1,8 @@
 # txtLAB
-txtlAB is a natural language processing and data science research labratory at McGill University. The Python scripts in this repository were created to conduct text analysis in a comparison between LGBTQ+ fan-fictions and New York Times bestsellers. 
+txtlAB is a natural language processing and data science research labratory at McGill University. The Python scripts in this repository were created to conduct text analysis in a comparison between LGBTQ+ fanfictions and New York Times bestsellers. In particular, we focused on the three following forms of comparison:
+1. Topic Modelling
+2. Character Centrism
+3. Events/Actions
 
 ## Getting Started
 
