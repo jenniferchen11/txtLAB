@@ -5,7 +5,7 @@ txtlAB is a natural language processing and data science research labratory at M
 3. Events/Actions
 
 ## Overview of Methodologies
- Topic Modelling Methodology
+### Topic Modelling Methodology
 The first method of analysis involved using topic modeling to search for recurring themes that emerge distinctively in one dataset but not the other. Several software libraries were employed in this process. To begin, Python’s Natural Language Toolkit filtered out the stop words of little significance (e.g. “the,” “and,” “but,” “or”). Then, Spacy was used to lemmatize the corpus; this ensured that different forms of a word (e.g. “organize” and “organizing”) were grouped together under one common base form. We then used a dictionary of words to create a bag of words (BoW) corpus. Finally, MALLET was used to create multiple term-topic matrices with each column containing 20 words belonging to a given topic. The process was repeated three times to create four different matrices with 20, 40, 60, 80 topic columns. It was determined that 40 topics allowed for extensive coverage of various topics, without there being considerable overlap of topics.
 
 Character Centrism Methodology
